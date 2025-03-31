@@ -1,0 +1,80 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #d8153f;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color:#cc3333
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+
+}
+
+.navbar-toggler {
+    background-color: #ca6d6d;
+}
+
+.carousel-inner {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Mantém a proporção */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    margin: 0;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.section-title span {
+    color: #cc3333;
+}
+
+#sobreorestaurante, #cardapio {
+    background-color: #ffcc99;
+}
+
+.text-colored {
+    color:#cc3333;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color:#cc3333;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:#cc3333
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
